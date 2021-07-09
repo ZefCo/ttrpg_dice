@@ -1,8 +1,7 @@
 {
     "Boost": {
-        "name": "Boost",
-        "color": "Blue",
-        "Sides": 6,
+        "low": 1,
+        "high": 6,
         "results":
         {
             "1": ["Blank"],
@@ -13,10 +12,9 @@
             "6": ["Advantage"]
         }
     },
-    "2": {
-        "name": "Setback",
-        "color": "Black",
-        "Sides": 6,
+    "Setback": {
+        "low": 1,
+        "high": 6,
         "results":
         {
             "1": ["Blank"],
@@ -27,10 +25,9 @@
             "6": ["Threat"]
         }
     },
-    "3": {
-        "name": "Ability",
-        "color": "Green",
-        "Sides": 8,
+    "Ability": {
+        "low": 1,
+        "high": 8,
         "results":
         {
             "1": ["Blank"],
@@ -43,10 +40,9 @@
             "8": ["Advantage", "Advantage"]
         }
     },
-    "4": {
-        "name": "Difficulty",
-        "color": "Purple",
-        "Sides": 8,
+    "Difficulty": {
+        "low": 1,
+        "high": 8,
         "results":
         {
             "1": ["Blank"],
@@ -59,10 +55,9 @@
             "8": ["Failure", "Threat"]
         }
     },
-    "5": {
-        "name": "Proficency",
-        "color": "Yellow",
-        "Sides": 12,
+    "Proficency": {
+        "low": 1,
+        "high": 12,
         "results":
         {
             "1": ["Blank"],
@@ -79,10 +74,9 @@
             "12": ["Triumph"]
         }
     },
-    "6": {
-        "name": "Challenge",
-        "color": "Red",
-        "Sides": 12,
+    "Challenge": {
+        "low": 1,
+        "high": 12,
         "results":
         {
             "1": ["Blank"],
@@ -98,10 +92,9 @@
             "12": ["Despair"]
         }
     },
-    "7": {
-        "name": "Force",
-        "color": "White",
-        "Sides": 12,
+    "Force": {
+        "low": 1,
+        "high": 12,
         "results":
         {
             "1": ["Dark Side"],

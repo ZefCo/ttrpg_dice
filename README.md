@@ -1,5 +1,21 @@
 # ttrpg_dice
 
+CURRENT ALGORITHM
+
+Right now it's a giant mess because I can't quite decide the best approach to this. Should I use more classes? Should I use less?
+
+Use a Dice as an object.
+
+Should the dice bag be an object?
+
+Probably not: that's probably me doing extra steps for no gain. Should probably just create the handful of dice when needed and pull the data of the dice when I create the handful.
+
+-dice_roller.py rolls the dice. 
+-random_generator(low, high, iterations=1) generates an iterations length tuple of random numbers between high and low and returns that. 
+-file_importer.py is a genereic file importer (useful for the future)
+-dice_class.py creates the class for the dice. Current attributes are high score, low score, and results (meant to future proof for other games that use none standard dice)
+-dice_bag.py creates the dice pools to be used (?)
+
 7/8/21
 
 FROM MAIN README
