@@ -1,5 +1,11 @@
 # ttrpg_dice
 
+7/10/21
+
+New goal: instead of initializing things seperatly, let's create a Dice Bag that pulls pulls the json data and then creates the dice objects and stores those objects. So an object to create and store other objects.
+
+Then create another object, the players hand, which holds - by default - 0 of each dice. We can then increse the number of each dice in the hand and roll those. The player hand only needs to be initizalized when needed.
+
 CURRENT ALGORITHM
 
 Right now it's a giant mess because I can't quite decide the best approach to this. Should I use more classes? Should I use less?

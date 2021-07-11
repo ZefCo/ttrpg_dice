@@ -10,6 +10,7 @@ class File():
         with open(file_path, 'r') as json_file:
             setattr(self, 'json_data', json.load(json_file))
 
+
 def main():
     cwd = os.getcwd()
     file_path = os.path.join(cwd, 'JSONS','standard_dice.json')

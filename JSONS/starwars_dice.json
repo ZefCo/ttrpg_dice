@@ -2,113 +2,36 @@
     "Boost": {
         "low": 1,
         "high": 6,
-        "results":
-        {
-            "1": ["Blank"],
-            "2": ["Blank"],
-            "3": ["Success"],
-            "4": ["Success", "Advantage"],
-            "5": ["Advantage", "Advantage"],
-            "6": ["Advantage"]
-        }
+        "results":[["Blank"], ["Blank"], ["Success"], ["Success", "Advantage"], ["Advantage", "Advantage"], ["Advantage"]]
     },
     "Setback": {
         "low": 1,
         "high": 6,
-        "results":
-        {
-            "1": ["Blank"],
-            "2": ["Blank"],
-            "3": ["Failure"],
-            "4": ["Failure"],
-            "5": ["Threat"],
-            "6": ["Threat"]
-        }
+        "results": [["Blank"], ["Blank"], ["Failure"], ["Failure"], ["Threat"], ["Threat"]]
     },
     "Ability": {
         "low": 1,
         "high": 8,
-        "results":
-        {
-            "1": ["Blank"],
-            "2": ["Success"],
-            "3": ["Success"],
-            "4": ["Success", "Success"],
-            "5": ["Advantage"],
-            "6": ["Advantage"],
-            "7": ["Success", "Advantage"],
-            "8": ["Advantage", "Advantage"]
-        }
+        "results": [["Blank"], ["Success"], ["Success"], ["Success", "Success"], ["Advantage"], ["Advantage"], ["Success", "Advantage"], ["Advantage", "Advantage"]]
     },
     "Difficulty": {
         "low": 1,
         "high": 8,
-        "results":
-        {
-            "1": ["Blank"],
-            "2": ["Failure"],
-            "3": ["Failure", "Failure"],
-            "4": ["Threat"],
-            "5": ["Threat"],
-            "6": ["Threat"],
-            "7": ["Threat", "Threat"],
-            "8": ["Failure", "Threat"]
-        }
+        "results": [["Blank"], ["Failure"], ["Failure", "Failure"], ["Threat"], ["Threat"], ["Threat"], ["Threat", "Threat"], ["Failure", "Threat"]]
     },
     "Proficency": {
         "low": 1,
         "high": 12,
-        "results":
-        {
-            "1": ["Blank"],
-            "2": ["Success"],
-            "3": ["Success"],
-            "4": ["Success", "Success"],
-            "5": ["Success", "Success"],
-            "6": ["Advantage"],
-            "7": ["Success", "Advantage"],
-            "8": ["Success", "Advantage"],
-            "9": ["Success", "Advantage"],
-            "10": ["Advantage", "Advantage"],
-            "11": ["Advantage", "Advantage"],
-            "12": ["Triumph"]
-        }
+        "results": [["Blank"], ["Success"], ["Success"], ["Success", "Success"], ["Success", "Success"], ["Advantage"], ["Success", "Advantage"], ["Success", "Advantage"], ["Success", "Advantage"], ["Advantage", "Advantage"], ["Advantage", "Advantage"], ["Triumph"]]
     },
     "Challenge": {
         "low": 1,
         "high": 12,
-        "results":
-        {
-            "1": ["Blank"],
-            "2": ["Failure"],
-            "3": ["Failure"],
-            "4": ["Failure", "Failure"],
-            "5": ["Failure", "Failure"],
-            "6": ["Threat", "Threat"],
-            "8": ["Advantage", "Advantage"],
-            "9": ["Failure", "Threat"],
-            "10": ["Threat", "Threat"],
-            "11": ["Threat", "Threat"],
-            "12": ["Despair"]
-        }
+        "results": [["Blank"], ["Failure"], ["Failure"], ["Failure", "Failure"], ["Failure", "Failure"], ["Threat", "Threat"], ["Advantage", "Advantage"], ["Failure", "Threat"], ["Threat", "Threat"], ["Threat", "Threat"], ["Despair"]]
     },
     "Force": {
         "low": 1,
         "high": 12,
-        "results":
-        {
-            "1": ["Dark Side"],
-            "2": ["Dark Side"],
-            "3": ["Dark Side"],
-            "4": ["Dark Side"],
-            "5": ["Dark Side"],
-            "6": ["Dark Side"],
-            "7": ["Dark Side", "Dark Side"],
-            "8": ["Light Side"],
-            "9": ["Light Side"],
-            "10": ["Light Side", "Light Side"],
-            "11": ["Light Side", "Light Side"],
-            "12": ["Light Side", "Light Side"]
-        }
+        "results": [["Dark Side"], ["Dark Side"], ["Dark Side"], ["Dark Side"], ["Dark Side"], ["Dark Side"], ["Dark Side", "Dark Side"], ["Light Side"], ["Light Side"], ["Light Side", "Light Side"], ["Light Side", "Light Side"], ["Light Side", "Light Side"]]
     }
 }
