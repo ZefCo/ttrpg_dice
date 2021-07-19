@@ -5,7 +5,16 @@ class Dice:
         self.name = name
         self.low = low
         self.high = high
-        self.results = results
+        self.r_array = results
+        self.results = []
+        self.set_ammount(0)
+
+    def set_ammount(self, ammount):
+        self.ammount = ammount
+
+    def clear_results(self):
+        del self.results
+        self.results = []
 
 
 def main():

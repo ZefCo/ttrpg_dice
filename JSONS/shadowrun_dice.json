@@ -1,0 +1,7 @@
+{
+    "d6": {
+        "low": 1,
+        "high": 6,
+        "results": [["failure"], ["null"], ["null"], ["null"], ["success"], ["success"]] 
+    }
+}

@@ -1,5 +1,15 @@
 # ttrpg_dice
 
+7/19/21
+
+This is probably pretty complicated and dumb.
+
+How about this: I roll a dice with x number of sides. I figure out what that number is. Then I compare it to a list with the results and print those results.
+
+We'll start with standard dice.
+
+What I want is for the user to be able to do something like roll!(dice1=#, dice2=#, dice3=#) and it give them the result. So kwargs is the route to go.
+
 7/10/21
 
 New goal: instead of initializing things seperatly, let's create a Dice Bag that pulls pulls the json data and then creates the dice objects and stores those objects. So an object to create and store other objects.
