@@ -26,6 +26,10 @@ def read_txt(file_path):
         # pass
     return txt_dump
 
+def cwd():
+    cwd = os.getcwd()
+    return cwd
+
 # def txt_2_csv(file_path):
 #     with open(file_path, 'r') as txt_file:
 #         txt_dump = txt_file.readlines()

@@ -1,5 +1,15 @@
 # ttrpg_dice
 
+7/20/21
+
+How to do the cli: I don't want to write seperate scripst for each dice roller: I just want one and you can access all of them from the main. So when sending a command I want the user to tell the script everything it needs. I'll need a "help" script in the end. Until then let's come up with a standard for commands to tell the thing what to do.
+
+roll_rules!(dice=ammount)
+
+So it would be r'roll_\w+!((\d+|\w+)=\d+)' or something.
+
+The main challenge however is how to access the rulesets: 1) do I want to do this, 2) how do I do this? For 1: the main problem is that I have to write a script every time I want to add a thing, but that is tedious. For 2, it's rather complicated right? So instead I should store a lot of the data in JSON files, and just come up with a scheme that allows me to use the JSON files for manipulation. That way if I want to add information I can just append the JSON file folder and I'm done.
+
 7/19/21
 
 This is probably pretty complicated and dumb.
