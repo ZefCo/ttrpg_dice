@@ -1,0 +1,37 @@
+{
+    "Boost": {
+        "low": 1,
+        "high": 6,
+        "results":[["Blank"], ["Blank"], ["Success"], ["Success", "Advantage"], ["Advantage", "Advantage"], ["Advantage"]]
+    },
+    "Setback": {
+        "low": 1,
+        "high": 6,
+        "results": [["Blank"], ["Blank"], ["Failure"], ["Failure"], ["Threat"], ["Threat"]]
+    },
+    "Ability": {
+        "low": 1,
+        "high": 8,
+        "results": [["Blank"], ["Success"], ["Success"], ["Success", "Success"], ["Advantage"], ["Advantage"], ["Success", "Advantage"], ["Advantage", "Advantage"]]
+    },
+    "Difficulty": {
+        "low": 1,
+        "high": 8,
+        "results": [["Blank"], ["Failure"], ["Failure", "Failure"], ["Threat"], ["Threat"], ["Threat"], ["Threat", "Threat"], ["Failure", "Threat"]]
+    },
+    "Proficency": {
+        "low": 1,
+        "high": 12,
+        "results": [["Blank"], ["Success"], ["Success"], ["Success", "Success"], ["Success", "Success"], ["Advantage"], ["Success", "Advantage"], ["Success", "Advantage"], ["Success", "Advantage"], ["Advantage", "Advantage"], ["Advantage", "Advantage"], ["Triumph"]]
+    },
+    "Challenge": {
+        "low": 1,
+        "high": 12,
+        "results": [["Blank"], ["Failure"], ["Failure"], ["Failure", "Failure"], ["Failure", "Failure"], ["Threat", "Threat"], ["Advantage", "Advantage"], ["Failure", "Threat"], ["Threat", "Threat"], ["Threat", "Threat"], ["Despair"]]
+    },
+    "Force": {
+        "low": 1,
+        "high": 12,
+        "results": [["Dark Side"], ["Dark Side"], ["Dark Side"], ["Dark Side"], ["Dark Side"], ["Dark Side"], ["Dark Side", "Dark Side"], ["Light Side"], ["Light Side"], ["Light Side", "Light Side"], ["Light Side", "Light Side"], ["Light Side", "Light Side"]]
+    }
+}
