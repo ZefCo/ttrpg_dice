@@ -1,13 +1,14 @@
-#include "HeaderFiles/Seeder.h"
 #include <vector>
 #include <iostream>
 #include <map>
+#include "HeaderFiles/Seeder.h"
 #include "NRHeaderFiles/ran3cpp.h"
 
 int seed1;
 int seed2;
 
 
+// generates a random number between [min, max). Default is [0, 1]
 int rand_int(double rval, int min = 0, int max = 2) {
 
     int rnt = min + ((max - min) * rval);
@@ -18,7 +19,7 @@ int rand_int(double rval, int min = 0, int max = 2) {
 
 
 
-int main() {
+double rvalue(int min, int max) {
 
     seed1 = gen_seed();
     seed2 = gen_seed();
@@ -33,8 +34,6 @@ int main() {
 
     double rval = rlist[index];
 
-    int dice_value = rand_int(rval, 0, 7);
-
-    std::cout << "Dice Rolled = " << dice_value << std::endl;
+    return rval;
 
 }
