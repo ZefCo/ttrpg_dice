@@ -1,11 +1,9 @@
-// #include "../NRHeaderFiles/ran3cpp.h"
 #include <ctime>
 #include <chrono>
 #include <iostream>
 
 
 int seed_portion(int OoM = 1) {
-    // std::chrono::duration<double> timeX, timeY;
 
     auto timeX = std::chrono::system_clock::now();  // autotype because whatever the fuck this is, typeid().name() seems to hate it.
     auto timeY = std::chrono::system_clock::now();
